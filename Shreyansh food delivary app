@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zeto Delivery App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            margin: 15px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .features {
+            display: flex;
+            justify-content: space-around;
+        }
+        .feature {
+            width: 30%;
+            text-align: center;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Zeto</h1>
+    <nav>
+        <a href="#features">Features</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+</header>
+
+<section id="features">
+    <h2>Our Features</h2>
+    <div class="features">
+        <div class="feature">
+            <h3>Fast Delivery</h3>
+            <p>Get your orders delivered quickly and reliably.</p>
+        </div>
+        <div class="feature">
+            <h3>Wide Selection</h3>
+            <p>Choose from a variety of restaurants and stores.</p>
+        </div>
+        <div class="feature">
+            <h3>Real-Time Tracking</h3>
+            <p>Track your delivery in real-time for peace of mind.</p>
+        </div>
+    </div>
+</section>
+
+<section id="menu">
